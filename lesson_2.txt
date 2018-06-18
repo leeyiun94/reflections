@@ -5,16 +5,32 @@ creating a .git file to save the metadata for the changes made.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	staging area get file from working directory and gonna to save it into the repository. it provide flexibility for user to choose file to be committed the changes 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	with the staging area, we can add the file where meaningful logical changes made and track the changes accordingly. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	branch is helpful in encouraging different version of same game being done without affecting the master branch. development in another branch wont affect the working branch
+
 How do the diagrams help you visualize the branch structure?
+
+	understand the parent of each commit and can easily visualize unaccessible commit. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The changes made on both branches is combined and the output is the overall result of the two branches. We represented it in diagram to show it clearly on what is accessible from the current branch. 
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	auto's pros: Simpler and easier execution
+	auto's cons: the choice of version is not under user's choice
+
+	manual's pros: the merging always under control
+	manuals's cons: troublesome to check on each changes and concatenate them errorfree
